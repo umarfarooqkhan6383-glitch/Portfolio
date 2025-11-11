@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/windows,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,node
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,node
 
 ### Node ###
-=======
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
 # Logs
 logs
 *.log
@@ -13,10 +10,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-<<<<<<< HEAD
 .pnpm-debug.log*
-=======
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -68,15 +62,12 @@ web_modules/
 # Optional stylelint cache
 .stylelintcache
 
-<<<<<<< HEAD
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
 
-=======
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
 # Optional REPL history
 .node_repl_history
 
@@ -88,15 +79,10 @@ web_modules/
 
 # dotenv environment variable files
 .env
-<<<<<<< HEAD
 .env.development.local
 .env.test.local
 .env.production.local
 .env.local
-=======
-.env.*
-!.env.example
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -121,19 +107,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-<<<<<<< HEAD
-=======
-.cache
-
-# Sveltekit cache directory
-.svelte-kit/
-
-# vitepress build output
-**/.vitepress/dist
-
-# vitepress cache directory
-**/.vitepress/cache
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -147,19 +120,12 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
-<<<<<<< HEAD
-=======
-# Firebase cache directory
-.firebase/
-
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
 # TernJS port file
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-<<<<<<< HEAD
 # yarn v2
 .yarn/cache
 .yarn/unplugged
@@ -175,6 +141,25 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -202,21 +187,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,node
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-=======
-# yarn v3
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
-# Vite logs files
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
->>>>>>> e4712cf65a7b4b3a3ed2c76b5d3193e07caebb9f
